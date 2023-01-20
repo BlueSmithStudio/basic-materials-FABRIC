@@ -1,0 +1,16 @@
+{
+  "itemGroup.basicmaterials.basic_materials": "Basic Materials",
+  "item.basicmaterials.amethyst_dust": "Amethyststaub",
+  "item.basicmaterials.amethyst_nugget": "Amethystklumpen",
+  "item.basicmaterials.amethyst_ingot": "Amethystbarren",
+  "item.basicmaterials.coal_dust": "Kohlestaub",
+  "item.basicmaterials.coal_nugget": "Kohleklumpen",
+  "item.basicmaterials.coal_ingot": "Kohlebarren",
+  "item.basicmaterials.copper_coin": "Kupfermünze",
+  "item.basicmaterials.copper_dust": "Kupferstaub",
+  "item.basicmaterials.copper_nugget": "Kupferklumpen",
+  "item.basicmaterials.diamond_dust": "Diamantstaub",
+  "item.basicmaterials.diamond_nugget": "Diamantklumpen",
+  "item.basicmaterials.diamond_ingot": "Diamantbarren",
+  "item.basicmaterials.diamond_shard": "Diamantscherbe"
+}

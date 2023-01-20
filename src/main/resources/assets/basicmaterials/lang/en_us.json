@@ -2,5 +2,15 @@
   "itemGroup.basicmaterials.basic_materials": "Basic Materials",
   "item.basicmaterials.amethyst_dust": "Amethyst Dust",
   "item.basicmaterials.amethyst_nugget": "Amethyst Nugget",
-  "item.basicmaterials.amethyst_ingot": "Amethyst Ingot"
+  "item.basicmaterials.amethyst_ingot": "Amethyst Ingot",
+  "item.basicmaterials.coal_dust": "Coal Dust",
+  "item.basicmaterials.coal_nugget": "Coal Nugget",
+  "item.basicmaterials.coal_ingot": "Coal Ingot",
+  "item.basicmaterials.copper_coin": "Copper Coin",
+  "item.basicmaterials.copper_dust": "Copper Dust",
+  "item.basicmaterials.copper_nugget": "Copper Nugget",
+  "item.basicmaterials.diamond_dust": "Diamond Dust",
+  "item.basicmaterials.diamond_nugget": "Diamond Nugget",
+  "item.basicmaterials.diamond_ingot": "Diamond Ingot",
+  "item.basicmaterials.diamond_shard": "Diamond Shard"
 }
