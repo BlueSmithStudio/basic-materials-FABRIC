@@ -13,6 +13,10 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(Items.AMETHYST_SHARD))
             .build();
 
+    public static void registerModItemGroups(){
+        BasicMaterials.LOGGER.debug("Registering Mod ItemGroups for: " + BasicMaterials.MOD_ID);
+    }
+
     public static void addBasicMaterial(){
         ItemGroupEvents.modifyEntriesEvent(BASIC_MATERIALS).register(content -> {
             content.add(Items.AMETHYST_SHARD);
