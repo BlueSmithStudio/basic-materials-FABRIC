@@ -2,6 +2,7 @@ package bluesmith.basicmaterials.ItemGroups;
 
 
 import bluesmith.basicmaterials.BasicMaterials;
+import bluesmith.basicmaterials.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -10,16 +11,17 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
 
     private static final ItemGroup BASIC_MATERIALS = FabricItemGroup.builder(new Identifier(BasicMaterials.MOD_ID, "basic_materials"))
-            .icon(() -> new ItemStack(Items.AMETHYST_SHARD))
+            .icon(() -> new ItemStack(ModItems.AMETHYST_GEM))
             .build();
 
     public static void registerModItemGroups(){
         BasicMaterials.LOGGER.debug("Registering Mod ItemGroups for: " + BasicMaterials.MOD_ID);
+        addBasicMaterial();
     }
 
     public static void addBasicMaterial(){
         ItemGroupEvents.modifyEntriesEvent(BASIC_MATERIALS).register(content -> {
-            content.add(Items.AMETHYST_SHARD);
+            content.add(ModItems.AMETHYST_GEM);
         });
     }
 
