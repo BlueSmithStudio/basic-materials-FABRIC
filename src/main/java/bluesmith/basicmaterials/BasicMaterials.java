@@ -13,10 +13,13 @@ public class BasicMaterials implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.addBasicMaterial();
+
+		ModItemGroups.registerModItemGroups();
+		LOGGER.info("registering ItemGroups done!");
 
 		ModItems.registerModItems();
-		ModItems.addCreative();
+		LOGGER.info("registering Items done!");
+
 
 		LOGGER.info("Hello Fabric world!");
 	}
