@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    public static final Item AMETHYST_GEM = registerItem("amethyst_gem",
+            new Item(new FabricItemSettings()));
     public static final Item AMETHYST_DUST = registerItem("amethyst_dust",
             new Item(new FabricItemSettings()));
     public static final Item AMETHYST_NUGGET = registerItem("amethyst_nugget",
@@ -48,7 +50,8 @@ public class ModItems {
 
     public static void registerModItems(){
         BasicMaterials.LOGGER.debug("Registering Mod Items for: " + BasicMaterials.MOD_ID);
-
+        registerFuels();
+        addCreative();
     }
 
     public static void registerFuels(){
@@ -59,6 +62,7 @@ public class ModItems {
 
     public static void addCreative(){
 
+        ModItemGroups.addAfterBasicMaterial(AMETHYST_GEM,Items.AMETHYST_SHARD);
         ModItemGroups.addAfterBasicMaterial(Items.AMETHYST_SHARD,AMETHYST_DUST);
         ModItemGroups.addAfterBasicMaterial(AMETHYST_DUST,AMETHYST_NUGGET);
         ModItemGroups.addAfterBasicMaterial(AMETHYST_NUGGET,AMETHYST_INGOT);
@@ -77,7 +81,7 @@ public class ModItems {
         ModItemGroups.addAfterBasicMaterial(DIAMOND_DUST,DIAMOND_NUGGET);
         ModItemGroups.addAfterBasicMaterial(DIAMOND_NUGGET,DIAMOND_INGOT);
 
-
+        ModItemGroups.addAfterIngredients(Items.DIAMOND,AMETHYST_GEM);
         ModItemGroups.addAfterIngredients(Items.GUNPOWDER,AMETHYST_DUST);
         ModItemGroups.addAfterIngredients(Items.GOLD_NUGGET,AMETHYST_NUGGET);
         ModItemGroups.addAfterIngredients(Items.GOLD_INGOT,AMETHYST_INGOT);
