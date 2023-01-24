@@ -13,5 +13,17 @@
   "item.basicmaterials.diamond_dust": "Diamantstaub",
   "item.basicmaterials.diamond_nugget": "Diamantklumpen",
   "item.basicmaterials.diamond_ingot": "Diamantbarren",
-  "item.basicmaterials.diamond_shard": "Diamantscherbe"
+  "item.basicmaterials.diamond_shard": "Diamantscherbe",
+  "item.basicmaterials.echo_dust": "Echostaub",
+  "item.basicmaterials.echo_gem": "Echo",
+  "item.basicmaterials.echo_ingot": "Echobarren",
+  "item.basicmaterials.echo_nugget": "Echoklumpen",
+  "item.basicmaterials.emerald_dust": "Smaragdstaub",
+  "item.basicmaterials.emerald_ingot": "Smaragdbarren",
+  "item.basicmaterials.emerald_nugget": "Smaragdklumpen",
+  "item.basicmaterials.emerald_shard": "Smaragdscherbe",
+  "item.basicmaterials.gold_coin": "Goldmünze",
+  "item.basicmaterials.gold_dust": "Goldstaub",
+  "item.basicmaterials.iron_coin": "Eisenmünze",
+  "item.basicmaterials.iron_dust": "Eisenstaub"
 }
