@@ -13,5 +13,17 @@
   "item.basicmaterials.diamond_dust": "Diamond Dust",
   "item.basicmaterials.diamond_nugget": "Diamond Nugget",
   "item.basicmaterials.diamond_ingot": "Diamond Ingot",
-  "item.basicmaterials.diamond_shard": "Diamond Shard"
+  "item.basicmaterials.diamond_shard": "Diamond Shard",
+  "item.basicmaterials.echo_dust": "Echo Dust",
+  "item.basicmaterials.echo_gem": "Echo",
+  "item.basicmaterials.echo_ingot": "Echo Ingot",
+  "item.basicmaterials.echo_nugget": "Echo Nugget",
+  "item.basicmaterials.emerald_dust": "Emerald Dust",
+  "item.basicmaterials.emerald_ingot": "Emerald Ingot",
+  "item.basicmaterials.emerald_nugget": "Emerald Nugget",
+  "item.basicmaterials.emerald_shard": "Emerald Shard",
+  "item.basicmaterials.gold_coin": "Gold Coin",
+  "item.basicmaterials.gold_dust": "Gold Dust",
+  "item.basicmaterials.iron_coin": "Iron Coin",
+  "item.basicmaterials.iron_dust": "Iron Dust"
 }
