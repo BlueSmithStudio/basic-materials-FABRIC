@@ -58,15 +58,57 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item EMERALD_NUGGET = registerItem("emerald_nugget",
             new Item(new FabricItemSettings()));
-    public static final Item EMERALD_SHARD= registerItem("emerald_shard",
+    public static final Item EMERALD_SHARD = registerItem("emerald_shard",
             new Item(new FabricItemSettings()));
-    public static final Item GOLD_COIN= registerItem("gold_coin",
+    public static final Item GOLD_COIN = registerItem("gold_coin",
             new Item(new FabricItemSettings()));
     public static final Item GOLD_DUST = registerItem("gold_dust",
             new Item(new FabricItemSettings()));
     public static final Item IRON_COIN = registerItem("iron_coin",
             new Item(new FabricItemSettings()));
     public static final Item IRON_DUST= registerItem("iron_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item LAPIS_LAZULI_DUST= registerItem("lapis_lazuli_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item LAPIS_LAZULI_GEM= registerItem("lapis_lazuli_gem",
+            new Item(new FabricItemSettings()));
+    public static final Item LAPIS_LAZULI_INGOT = registerItem("lapis_lazuli_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item LAPIS_LAZULI_NUGGET = registerItem("lapis_lazuli_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item LAPIS_LAZULI_SHARD= registerItem("lapis_lazuli_shard",
+            new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_DUST = registerItem("netherite_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_GEM = registerItem("netherite_gem",
+            new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_NUGGET= registerItem("netherite_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_SHARD= registerItem("netherite_shard",
+            new Item(new FabricItemSettings()));
+    public static final Item QUAURTZ_DUST= registerItem("quartz_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item QUAURTZ_GEM = registerItem("quartz_gem",
+            new Item(new FabricItemSettings()));
+    public static final Item QUAURTZ_INGOT = registerItem("quartz_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item QUAURTZ_NUGGET= registerItem("quartz_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item QUAURTZ_SHARD= registerItem("quartz_shard",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_IRON_DUST = registerItem("raw_iron_dust",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_IRON_INGOT= registerItem("raw_iron_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_IRON_NUGGET= registerItem("raw_iron_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_INGOT = registerItem("redstone_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_NUGGET= registerItem("redstone_nugget",
+            new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_SHARD= registerItem("redstone_shard",
+            new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_GEM= registerItem("redstone_gem",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
@@ -124,14 +166,43 @@ public class ModItems {
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.GOLD_INGOT);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,GOLD_COIN);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.RAW_IRON);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,RAW_IRON_DUST);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,IRON_DUST);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,RAW_IRON_NUGGET);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.IRON_NUGGET);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,RAW_IRON_INGOT);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.IRON_INGOT);
         ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,IRON_COIN);
-
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.LAPIS_LAZULI);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,LAPIS_LAZULI_GEM);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,LAPIS_LAZULI_SHARD);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,LAPIS_LAZULI_DUST);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,LAPIS_LAZULI_NUGGET);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,LAPIS_LAZULI_INGOT);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.NETHERITE_SCRAP);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,NETHERITE_GEM);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,NETHERITE_SHARD);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,NETHERITE_DUST);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,NETHERITE_NUGGET);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.NETHERITE_INGOT);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.QUARTZ);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,QUAURTZ_GEM);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,QUAURTZ_SHARD);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,QUAURTZ_DUST);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,QUAURTZ_NUGGET);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,QUAURTZ_INGOT);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,REDSTONE_GEM);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,REDSTONE_SHARD);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,Items.REDSTONE);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,REDSTONE_NUGGET);
+        ModItemGroups.addToItemGroup(ModItemGroups.BASIC_MATERIALS,REDSTONE_INGOT);
 
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,Items.DIAMOND,AMETHYST_GEM);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,AMETHYST_GEM,ECHO_GEM);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,ECHO_GEM,LAPIS_LAZULI_GEM);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,LAPIS_LAZULI_GEM,NETHERITE_GEM);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,NETHERITE_GEM,QUAURTZ_GEM);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,QUAURTZ_GEM,REDSTONE_GEM);
 
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,Items.GUNPOWDER,AMETHYST_DUST);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,AMETHYST_DUST,COAL_DUST);
@@ -140,7 +211,11 @@ public class ModItems {
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,DIAMOND_DUST,ECHO_DUST);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,ECHO_DUST,EMERALD_DUST);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,EMERALD_DUST,GOLD_DUST);
-        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,GOLD_DUST,IRON_DUST);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,GOLD_DUST,RAW_IRON_DUST);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,RAW_IRON_DUST,IRON_DUST);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,IRON_DUST,LAPIS_LAZULI_DUST);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,LAPIS_LAZULI_DUST,NETHERITE_DUST);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,NETHERITE_DUST,QUAURTZ_DUST);
 
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,Items.GOLD_NUGGET,AMETHYST_NUGGET);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,AMETHYST_NUGGET,COAL_NUGGET);
@@ -148,15 +223,28 @@ public class ModItems {
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,COPPER_NUGGET,DIAMOND_NUGGET);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,DIAMOND_NUGGET,ECHO_NUGGET);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,ECHO_NUGGET,EMERALD_NUGGET);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,EMERALD_NUGGET,LAPIS_LAZULI_NUGGET);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,LAPIS_LAZULI_NUGGET,NETHERITE_NUGGET);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,NETHERITE_NUGGET,QUAURTZ_NUGGET);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,QUAURTZ_NUGGET,RAW_IRON_NUGGET);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,RAW_IRON_NUGGET,REDSTONE_NUGGET);
 
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,Items.GOLD_INGOT,AMETHYST_INGOT);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,AMETHYST_INGOT,COAL_INGOT);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,COAL_INGOT,DIAMOND_INGOT);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,DIAMOND_INGOT,ECHO_INGOT);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,ECHO_INGOT,EMERALD_INGOT);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,EMERALD_INGOT,LAPIS_LAZULI_INGOT);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,LAPIS_LAZULI_INGOT,QUAURTZ_INGOT);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,QUAURTZ_INGOT,RAW_IRON_INGOT);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,RAW_IRON_INGOT,REDSTONE_INGOT);
 
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,Items.AMETHYST_SHARD,DIAMOND_SHARD);
         ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,DIAMOND_SHARD,EMERALD_SHARD);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,EMERALD_SHARD,LAPIS_LAZULI_SHARD);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,LAPIS_LAZULI_SHARD,NETHERITE_SHARD);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,NETHERITE_SHARD,QUAURTZ_SHARD);
+        ModItemGroups.addAfterInItemGroup(ItemGroups.INGREDIENTS,QUAURTZ_SHARD,REDSTONE_SHARD);
     }
 
 }
