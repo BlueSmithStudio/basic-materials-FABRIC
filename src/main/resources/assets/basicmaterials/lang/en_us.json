@@ -48,5 +48,7 @@
   "item.basicmaterials.redstone_gem": "Redstone",
   "item.basicmaterials.redstone_nugget": "Redstone Nugget",
   "item.basicmaterials.redstone_ingot": "Redstone Ingot",
-  "item.basicmaterials.redstone_shard": "Redstone Shard"
+  "item.basicmaterials.redstone_shard": "Redstone Shard",
+  "block.basicmaterials.raw_diamond_block": "Raw Diamond Block",
+  "block.basicmaterials.budding_diamond": "Budding Diamond"
 }

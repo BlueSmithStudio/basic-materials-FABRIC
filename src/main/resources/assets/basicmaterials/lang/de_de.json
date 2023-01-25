@@ -48,5 +48,7 @@
   "item.basicmaterials.redstone_gem": "Rotstein",
   "item.basicmaterials.redstone_nugget": "Rotsteinklumpen",
   "item.basicmaterials.redstone_ingot": "Rotsteinbarren",
-  "item.basicmaterials.redstone_shard": "Rotsteinscherbe"
+  "item.basicmaterials.redstone_shard": "Rotsteinscherbe",
+  "block.basicmaterials.raw_diamond_block": "Rohdiamantblock",
+  "block.basicmaterials.budding_diamond": "Diamandknospenblock"
 }
