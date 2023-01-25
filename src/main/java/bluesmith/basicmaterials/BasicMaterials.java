@@ -1,6 +1,7 @@
 package bluesmith.basicmaterials;
 
 import bluesmith.basicmaterials.ItemGroups.ModItemGroups;
+import bluesmith.basicmaterials.block.ModBlocks;
 import bluesmith.basicmaterials.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +21,8 @@ public class BasicMaterials implements ModInitializer {
 		ModItems.registerModItems();
 		LOGGER.info("registering Items done!");
 
+		ModBlocks.registerModBlocks();
+		LOGGER.info("registering Blocks done!");
 
 		LOGGER.info("Hello Fabric world!");
 	}
