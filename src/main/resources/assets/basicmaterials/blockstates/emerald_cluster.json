@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "basicmaterials:block/emerald_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "basicmaterials:block/emerald_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "basicmaterials:block/emerald_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "basicmaterials:block/emerald_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "basicmaterials:block/emerald_cluster"
+    },
+    "facing=west": {
+      "model": "basicmaterials:block/emerald_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
