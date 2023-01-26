@@ -1,8 +1,8 @@
 # basic-materials-FABRIC
 
-## actual version 0.0.1 ɑ - for Minecraft 1.19.3
+## actual version 0.0.2 ɑ - for Minecraft 23w04a-1.19.4
 
-## Additions for Vanilla-Items to add in future:
+## Additions for Vanilla-Items:
 ### Coal 
 - Dust
 - Nugget
