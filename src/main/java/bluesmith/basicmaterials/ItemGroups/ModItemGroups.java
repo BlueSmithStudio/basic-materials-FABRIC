@@ -2,17 +2,23 @@ package bluesmith.basicmaterials.ItemGroups;
 
 
 import bluesmith.basicmaterials.BasicMaterials;
+import bluesmith.basicmaterials.block.ModBlocks;
 import bluesmith.basicmaterials.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup BASIC_MATERIALS = FabricItemGroup.builder(new Identifier(BasicMaterials.MOD_ID, "basic_materials"))
+    public static final ItemGroup BASIC_MATERIALS_ITEMS = FabricItemGroup.builder(new Identifier(BasicMaterials.MOD_ID, "basic_materials_items"))
             .icon(() -> new ItemStack(ModItems.AMETHYST_GEM))
+            .build();
+
+    public static final ItemGroup BASIC_MATERIALS_GEODES = FabricItemGroup.builder(new Identifier(BasicMaterials.MOD_ID, "basic_materials_geodes"))
+            .icon(() -> new ItemStack(Blocks.AMETHYST_BLOCK))
             .build();
 
     public static void registerModItemGroups() {
