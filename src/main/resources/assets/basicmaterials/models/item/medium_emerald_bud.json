@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/amethyst_bud",
+  "textures": {
+    "layer0": "basicmaterials:block/medium_emerald_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 6, 0 ]
+    }
+  }
+}
