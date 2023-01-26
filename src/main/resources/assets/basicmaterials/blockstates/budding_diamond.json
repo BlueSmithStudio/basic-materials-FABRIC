@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model":  "basicmaterials:block/budding_diamond"}
+    "": {
+      "model":  "basicmaterials:block/budding_diamond"
+    }
   }
 }
