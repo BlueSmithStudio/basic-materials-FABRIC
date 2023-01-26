@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "basicmaterials:block/small_redstone_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "basicmaterials:block/small_redstone_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "basicmaterials:block/small_redstone_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "basicmaterials:block/small_redstone_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "basicmaterials:block/small_redstone_bud"
+    },
+    "facing=west": {
+      "model": "basicmaterials:block/small_redstone_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
