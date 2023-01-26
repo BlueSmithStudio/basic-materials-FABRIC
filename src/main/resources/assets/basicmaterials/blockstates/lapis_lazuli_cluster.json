@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster"
+    },
+    "facing=west": {
+      "model": "basicmaterials:block/lapis_lazuli_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
