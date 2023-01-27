@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "basicmaterials",
-	"version": "0.0.2 ɑ",
+	"version": "0.0.4",
 	"name": "Basic Materials",
 	"description": " This mod adds various different basic materials to Minecraft, to create a Library for all other mods to build on.",
 	"authors": [

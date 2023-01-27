@@ -20,7 +20,7 @@ public class ModBlocks {
     public static final Block RAW_DIAMOND_BLOCK = register("raw_diamond_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_DIAMOND = register("budding_diamond",
-            new BuddingDiamondBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingDiamondBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block DIAMOND_CLUSTER = register("diamond_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -41,7 +41,7 @@ public class ModBlocks {
     public static final Block RAW_ECHO_BLOCK = register("raw_echo_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_ECHO= register("budding_echo",
-            new BuddingEchoBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingEchoBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block ECHO_CLUSTER = register("echo_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -62,7 +62,7 @@ public class ModBlocks {
     public static final Block RAW_EMERALD_BLOCK = register("raw_emerald_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_EMERALD= register("budding_emerald",
-            new BuddingEmeraldBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingEmeraldBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block EMERALD_CLUSTER = register("emerald_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -83,7 +83,7 @@ public class ModBlocks {
     public static final Block RAW_LAPIS_BLOCK = register("raw_lapis_lazuli_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_LAPIS= register("budding_lapis_lazuli",
-            new BuddingLapisLazuliBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingLapisLazuliBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block LAPIS_CLUSTER = register("lapis_lazuli_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -104,7 +104,7 @@ public class ModBlocks {
     public static final Block RAW_NETHERITE_BLOCK = register("raw_netherite_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_NETHERITE= register("budding_netherite",
-            new BuddingNetheriteBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingNetheriteBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block NETHERITE_CLUSTER = register("netherite_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -126,7 +126,7 @@ public class ModBlocks {
     public static final Block RAW_QUARTZ_BLOCK = register("raw_quartz_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_QUARTZ= register("budding_quartz",
-            new BuddingQuartzBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingQuartzBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block QUARTZ_CLUSTER = register("quartz_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
@@ -147,7 +147,7 @@ public class ModBlocks {
     public static final Block RAW_REDSTONE_BLOCK = register("raw_redstone_block",
             new RawCrystalBlock(FabricBlockSettings.of(Material.AMETHYST, MapColor.DIAMOND_BLUE).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
     public static final Block BUDDING_REDSTONE= register("budding_redstone",
-            new BuddingRedstoneBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new BuddingRedstoneBlock(FabricBlockSettings.of(Material.AMETHYST).ticksRandomly().strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().dropsNothing()));
     public static final Block REDSTONE_CLUSTER = register("redstone_cluster",
             new CrystalClusterBlock(7, 3, AbstractBlock.Settings.of(Material.AMETHYST).nonOpaque().ticksRandomly().sounds(BlockSoundGroup.AMETHYST_CLUSTER).strength(1.5F).luminance((state) -> {
                 return 5;
