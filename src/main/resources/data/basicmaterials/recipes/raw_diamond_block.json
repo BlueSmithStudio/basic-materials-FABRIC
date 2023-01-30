@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "dd ",
+    "dd "
+  ],
+  "key": {
+    "d": {
+      "item": "basicmaterials:diamond_shard"
+    }
+  },
+  "result": {
+    "item": "basicmaterials:raw_diamond_block",
+    "count": 1
+  }
+}
