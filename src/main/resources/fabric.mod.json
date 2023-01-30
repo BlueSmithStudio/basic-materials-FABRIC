@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "basicmaterials",
-	"version": "0.0.1 ɑ",
+	"version": "0.0.4",
 	"name": "Basic Materials",
 	"description": " This mod adds various different basic materials to Minecraft, to create a Library for all other mods to build on.",
 	"authors": [
@@ -9,8 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/BlueSmithStudio",
-		"sources": "https://github.com/BlueSmithStudio/basic-materials-FABRIC-0.0.1-1.19.3",
-		"issues": "https://github.com/BlueSmithStudio/basic-materials-FABRIC-0.0.1-1.19.3/issues"
+		"sources": "https://github.com/BlueSmithStudio/basic-materials-FABRIC",
+		"issues": "https://github.com/BlueSmithStudio/basic-materials-FABRIC/issues"
 	},
 	"license": "CC-BY-4.0",
 	"icon": "assets/basicmaterials/icon.png",

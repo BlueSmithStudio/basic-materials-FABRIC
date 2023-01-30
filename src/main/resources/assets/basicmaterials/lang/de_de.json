@@ -1,5 +1,6 @@
 {
-  "itemGroup.basicmaterials.basic_materials": "Basic Materials",
+  "itemGroup.basicmaterials.basic_materials_items": "Basic Materials Items",
+  "itemGroup.basicmaterials.basic_materials_geodes": "Basic Materials Drusen",
   "item.basicmaterials.amethyst_gem": "Amethyst",
   "item.basicmaterials.amethyst_dust": "Amethyststaub",
   "item.basicmaterials.amethyst_nugget": "Amethystklumpen",
@@ -45,8 +46,14 @@
   "item.basicmaterials.raw_iron_dust": "Roheisenstaub",
   "item.basicmaterials.raw_iron_nugget": "Roheisenklumpen",
   "item.basicmaterials.raw_iron_ingot": "Roheisenbarren",
-  "item.basicmaterials.redstone_gem": "Rotstein",
-  "item.basicmaterials.redstone_nugget": "Rotsteinklumpen",
-  "item.basicmaterials.redstone_ingot": "Rotsteinbarren",
-  "item.basicmaterials.redstone_shard": "Rotsteinscherbe"
+  "item.basicmaterials.redstone_gem": "Redstone",
+  "item.basicmaterials.redstone_nugget": "Redstone-Klumpen",
+  "item.basicmaterials.redstone_ingot": "Redstone-Barren",
+  "item.basicmaterials.redstone_shard": "Redstone-Scherbe",
+  "block.basicmaterials.raw_diamond_block": "Rohdiamantblock",
+  "block.basicmaterials.budding_diamond": "Diamandknospenblock",
+  "block.basicmaterials.diamond_cluster": "Diamanthaufen",
+  "block.basicmaterials.large_diamond_bud": "Große Diamantknospe",
+  "block.basicmaterials.medium_diamond_bud": "Mittlere Diamantknospe",
+  "block.basicmaterials.small_diamond_bud": "Kleine Diamantknospe"
 }
