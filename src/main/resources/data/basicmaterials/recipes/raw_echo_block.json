@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "dd ",
+    "dd "
+  ],
+  "key": {
+    "d": {
+      "item": "basicmaterials:echo_shard"
+    }
+  },
+  "result": {
+    "item": "basicmaterials:raw_echo_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "dd ",
+    "dd "
+  ],
+  "key": {
+    "d": {
+      "item": "basicmaterials:netherite_shard"
+    }
+  },
+  "result": {
+    "item": "basicmaterials:raw_netherite_block",
+    "count": 1
+  }
+}

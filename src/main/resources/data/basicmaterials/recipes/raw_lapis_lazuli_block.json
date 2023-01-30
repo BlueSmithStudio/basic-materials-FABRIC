@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "dd ",
+    "dd "
+  ],
+  "key": {
+    "d": {
+      "item": "basicmaterials:lapis_lazuli_shard"
+    }
+  },
+  "result": {
+    "item": "basicmaterials:raw_lapis_lazuli_block",
+    "count": 1
+  }
+}

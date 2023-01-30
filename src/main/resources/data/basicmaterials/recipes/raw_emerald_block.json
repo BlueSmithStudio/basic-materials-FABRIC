@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "dd ",
+    "dd "
+  ],
+  "key": {
+    "d": {
+      "item": "basicmaterials:emerald_shard"
+    }
+  },
+  "result": {
+    "item": "basicmaterials:raw_emerald_block",
+    "count": 1
+  }
+}
