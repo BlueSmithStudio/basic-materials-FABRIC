@@ -1,9 +1,9 @@
 {
-  "feature": "basicmaterials:emerald_geode",
+  "feature": "basicmaterials:redstone_geode",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 100
+      "chance": 50
     },
     {
       "type": "minecraft:in_square"

@@ -3,6 +3,7 @@ package bluesmith.basicmaterials;
 import bluesmith.basicmaterials.ItemGroups.ModItemGroups;
 import bluesmith.basicmaterials.block.ModBlocks;
 import bluesmith.basicmaterials.item.ModItems;
+import bluesmith.basicmaterials.world.features.ModFeatures;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -23,6 +24,9 @@ public class BasicMaterials implements ModInitializer {
 
 		ModBlocks.registerModBlocks();
 		LOGGER.info("registering Blocks done!");
+
+		ModFeatures.placeFeaturesInBiomes();
+		LOGGER.info("features Placed");
 
 
 
