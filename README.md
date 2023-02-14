@@ -1,70 +1,28 @@
-# basic-materials-FABRIC
+# Basic Materials
 
-## actual version 0.0.2 ɑ - for Minecraft 23w04a-1.19.4
+This mod allows modders to use a collection of essential materials and provide a combined library of ingredients.
 
-## Additions for Vanilla-Items:
-### Coal 
-- Dust
-- Nugget
-- Ingot
 
-### Diamond
-- Dust
-- Nugget
-- Ingot
-- Shard
- 
-### Emerald
-- Dust
-- Nugget
-- Ingot
-- Shard
+### **Added**
+The following vanilla items got new materials:
+  
+- **Amethyst, Coal, Copper, Diamond, Echo, Emerald, Gold, Iron, Lapis, Netherite, Quartz, and Redstone**
 
-### Quartz
-- Dust
-- Nugget
-- Ingot
-- Shard
+There are new *dust, nugget, ingot, and shard variants* to represent different use cases in various mods.
 
-### Raw Iron
-- Dust
-- Nugget
-- Ingot
 
-### Iron
-- Dust
-- Coin
+- **Copper, Iron, and Gold** got a *coin variant* in addition.
 
-### Gold
-- Dust
-- Coin
+### **NEW** 
+- **Diamond, Echo, Emerald, Lapis, Netherite, Quartz, and Redstone**  
+all got their *geode blocks.*
 
-### Copper
-- Dust
-- Nugget
-- Coin
+---
+### **TODO**
+- functional Geodes, that spawn in-game
+- working on crafting recipes for all items
+- more uses throughout
+- library functionality for all kinds of mods.
 
-### Redstone
-- Nugget
-- Ingot
-- Shard
-
-### Lapis Lazuli
-- Dust
-- Nugget
-- Ingot
-- Shard
-
-### Amethyst
-- Dust
-- Nugget
-- Ingot
-
-### Netherite
-- Dust
-- Nugget
-
-### Echo
-- Dust
-- Nugget
-- Ingot
+### DISCLAIMER
+Currently, all items and blocks are only available through the creative menu. in the future, I will add possibilities to get them to Survival.
